@@ -1,0 +1,29 @@
+{
+  "name": "ARDB",
+  "version": "1.0.0",
+  "description": "Atom/RSS Database Manager",
+  "main": "index.js",
+  "bin": {
+    "ardb": "./src/bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadicalEds/ARDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadicalEds/ARDB/issues"
+  },
+  "homepage": "https://github.com/RadicalEds/ARDB#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0",
+    "yargs": "^18.0.0"
+  }
+}
